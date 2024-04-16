@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  .navbar-brand:hover{
+      color: white;
+  }
+  .nav-link{
+      margin-right: 10px;
+      margin-left: 10px;
+      color:white;
+      text-transform: uppercase;
+      font-family:'Times New Roman', Times, serif
+  }
+  .nav-link:hover{
+      color: black;
+      background-color: red;
+  }
+@keyframes slide{
+    0%{
+        background-image: url(./slider1.jpg);
+    }
+    
+    100%{
+        background-image: url(./slider2.jpg);
+    }
+
+}
+.main{
+    animation: slide 10s infinite;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+    font-family:'Times New Roman', Times, serif;
+}
+.main h1{
+    font-size: 50px;
+    font-weight: 1000;
+}
+.main p{
+    font-size: 25px;
+    text-align: justify;
+}
+@keyframes slide{
+    0%{
+        background-image: url(./about1.jpg);
+    }
+    25%{
+        background-image: url(./about2.jpg);
+    }
+    50%{
+        background-image: url(./about3.jpg);
+    }
+    100%{
+        background-image: url(./about4.jpg);
+    }
+
+}
+.aboutnav{
+    animation: slide 20s infinite;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+    font-family:'Times New Roman', Times, serif;
+}
+.aboutnav h1{
+    font-size: 50px;
+    font-weight: 1000;
+}
+.aboutnav p{
+    font-size: 25px;
+    text-align: justify;
+}
+.shop{
+    display: flex;
+}
+#header{
+    position: sticky;
+    top: 0px;
+}
+.header-icons{
+    border-bottom: 1px solid rgb(233, 230, 230);
+    height:6.3vh;
+    display: flex;
+    justify-content: space-around;
+}
+#fixed{
+    position:fixed;
+    top:100px;
+    left:1300px;
+}
+#fixed1{
+    position:fixed;
+    top:160px;
+    left:1300px;
+}
+.sticky{
+    position:fixed;
+    left: 1310px;
+    bottom: 50px;
+    border-radius: 50%;
+    background-color: #e8e7eb;
+ }
+ #fixed,#fixed1{
+    background-color:#e8e7eb;
+    margin: 7px;
+    border-radius: 20px;
+}
+
+
+.row p{
+    color: black;
+}
+.right{
+    display: flex;
+}
+.right a{
+ text-indent: 40px;
+}
+.terms a{
+    margin-right: 40px;
+}
+.terms a{
+    text-decoration: none;
+    color: rgb(201, 200, 200);
+}
+.terms a:hover{
+    color:rgb(243, 106, 106);
+}
+#footer a{
+    text-decoration: none;
+    color: rgb(201, 200, 200);
+}
+#footer a:hover{
+    color: rgb(243, 106, 106);
+}
+#fixed,#fixed1{
+    background-color: white;
+    margin: 7px;
+    border-radius: 5px;
+}
+
+.socialmedia-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+}
+.header-icons .socialmedia-icons:hover{
+    background-color: #ced3d3;
+    padding: 20px;
+}
+.socialmedia-icons a{
+    color: #141618;
+    text-decoration: none;
+    font-size: 17px;
+}
+.header-icons a:hover{
+    color: white;
+}
+.contact-email{
+    display: flex;
+    color: white;
+}
+.contact-email .email:hover{
+    background-color: #ced3d3;
+}
+.contact-email .mobile:hover{
+    background-color: #ced3d3;
+}
+.contact-email .header-icons:hover{
+    background-color: #ced3d3;
+}
+.contact-email a{
+    color:#101314;
+    text-decoration: none;
+
+}
+.mobile,.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    border-left: 1px solid #e5e7e9;
+    padding: 10px;
+    color: #0b0c0c; 
+
+}
+.email{
+    border-right: 1px solid #e4e6e7;  
+}
+.option{
+    margin-left:610px;
+    border: 1px solid rgb(247, 243, 243);
+}
+.text{
+    margin-right: 500px;
+    padding-bottom: 200px;
+}
+.text p{
+    font-size: 20px;
+}
+.text h1{
+    font-size: 70px;
+}
+.text span{
+    color: rgb(230, 58, 58);
+}
+.tech-card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tech-card-heading{
+    color: #1b1d21;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-left: 20px;
+    font-size: 17px;
+    padding: 10px;
+}
+.tech-card-description{
+    color:#5e5c61;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: justify;
+    width: 280px;
+    font-size: 14px;
+    margin-left: 20px;
+}
+#our-service{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.technology,.technology1{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    width:1150px;
+}
+.technology{
+    padding-bottom: -100px;
+}
+.section-bg img{
+    height: 695px;
+    width: 700px;
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+#form{
+    padding: 0 400px;
+}
+.head h2{
+    margin-right: 80px;
+    text-indent: -250px;
+    font-weight: bold;
+    padding: 20px;
+}
+.Treatments{
+    text-indent: 40px;
+    padding: 10px;
+}
+.Treatments span{
+    color: rgb(218, 80, 80);
+}
+
+
+.hidden{
+    display:none;
+}
+#btn,#pulmo{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#eye,#ear{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#Cardiology{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.Treatments p{
+    text-align: justify;
+}
+.Kidney p{
+    text-indent: 20px;
+    text-align: justify;
+}
+
+.treat{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.patient{
+    display: flex;
+    text-indent: 30px;
+}
+.patient span{
+    color:rgb(218, 80, 80);
+}
+.heading{
+    color: #1b1d21;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-left: 30px;
+    font-size: 17px;
+    padding: 20px;
+}
+.discreption{
+    color:#5e5c61;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: justify;
+    width: 500px;
+    font-size: 14px;
+    margin-left: 30px;
+}
+#btn1:hover{
+    background-color: black;
+}
+.served{
+    display: flex;
+    text-indent: 30px; 
+}
+#client:hover{
+    background-color: rgb(231, 64, 64);
+    opacity: 0.2;
+    color: red;
+}
+.Specialists{
+    text-align: center;
+}
+.Specialists span{
+    color: rgb(231, 64, 64);
+}
+.cover{
+    display: flex;
+}
+.cover h4,p{
+    text-align: center;
+}
+
+.row{
+    display: flex;
+}
+.icon-fb{
+    color:rgb(245, 101, 101);
+    margin: 3px;
+}
+.icon-in{
+    color: rgb(245, 101, 101);
+    margin-left: 100px;
+}
+.icon-fb:hover{
+    font-size: 30px;
+    border-radius: 20px;
+    color: rgb(71, 2, 2);
+}
+.icon-in:hover{
+    font-size: 30px;
+    border-radius: 20px;
+    color: rgb(190, 126, 6);
+}
+  #Copyrights{
+    display:inline;
+}
+#footer{
+    display: inline;
+    text-decoration: none;
+    color: #b9b8bb;
+    padding: 10px;
+    margin: 10px;
+}
+ .foot{
+    display: flex;
+}
+.card-body{
+    position: static;
+}
+
+.abouttext a{
+    color: #d0cfd3;
+    text-decoration: none;
+    padding-bottom: 100px;
+}
+.abouttext a:hover{
+    color: rgb(231, 63, 63);
+}
+.Made{
+    background-color: rgb(226, 61, 61);
+    height: 300px;
+    width: 300px;
+    opacity: 0.2;
+    color: black;
+}
+.Made p{
+    color:black;
+}
+.Made img{
+    padding: 60px;
+}
+.Made:hover{
+    opacity: 0.9;
+    color: white;
+}
+.Made p:hover{
+    color: white;
+}
+.what-we-do{
+    display: flex;
+}
+.actually p{
+    text-align: justify;
+}
+.treat{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.hours{
+    display: flex;
+    text-align: justify;
+}
+.onco{
+    display: flex;
+}
+.onco1{
+    display: flex;
+}
+.onco1 p{
+    font-size: 20px;
+    margin-right: 33px;
+}
+.onco h4{
+    padding-top: 20px;
+}
+.doct1{
+    background-image: url(./appointment.jpg);
+}
+.doctor a{
+    color: rgb(218, 213, 213);
+    text-decoration: none;
+}
+.doctor a:hover{
+    color:rgb(231, 71, 71);
+}

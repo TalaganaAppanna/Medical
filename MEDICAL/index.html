@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/6f7a9b511e.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <style>
+        @keyframes slide{
+    0%{
+        background-image: url(./slider1.jpg);
+    }
+    
+    100%{
+        background-image: url(./slider2.jpg);
+    }
+
+}
+.main{
+    animation: slide 10s infinite;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+    font-family:'Times New Roman', Times, serif;
+}
+    </style>
+</head>
+<body>
+
+    <header id="header" style="background-color: white;">
+        <div class="header-icons">
+            <div class="socialmedia-icons">
+            <a class="icon-f" href="#" target="_blank"><i class="fa-solid fa-clock"></i>&nbsp;Timings</a>
+        </div>
+        <div class="contact-email">
+            <div class="mobile">
+                <i class="fa-solid fa-phone" style="font-size: 14px;"></i> &nbsp;
+                <a href="tel:9392790740">+1-800-9876-221</a>
+            </div>
+            <div class="email">
+                <i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;
+                <a href="medical@canvas.com">medical@canvas.com</a>
+            </div>
+        </div>
+        <select class="option">
+            <option value="1">EN</option>
+            <option value="2">FR</option>
+            <option value="3">IT</option>
+            <option value="4">DE</option>
+        </select>
+        <button class="btn btn-danger">Book An Appointment</button>
+        </div>
+
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img src="./logo-medical.png" style="border-radius: 30px; height: 60px; width: 100px;"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fas fa-hamburger"></i></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">ABOUT US</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="departments.html">DEPARTMENTS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="appointment.html">APPOINTMENT</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="doctors.html">DOCTORS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blogs.html">BLOGS</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                      </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <section class="main">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-lg-7 pt-5">
+                    <h1>Heart<span style="color: rgb(238, 66, 66);"> Beat.</span></h1>
+                    <p>Care for your loved ones from the Excepts in the Medical & Hospitality Industry.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<div class="row">
+    <div id="our-service">
+        <div class="technology ">
+            <div class="tech-card col-lg-4 col-md-4 col-sm-4">
+                <i><img src="./i-cardiology.png"></i>
+                <div>
+                    <h2 class="tech-card-heading">Intensive Care</h2>
+                    <p class="tech-card-description">Powerful Layout with Responsive Functionality that can be adapted to any screen size.Resize browser to view.</p>
+                </div>
+
+
+                
+            </div>
+            <div class="tech-card">
+                <i><img src="./i-oncology.png"></i>
+                <div>
+                    <h2 class="tech-card-heading">Family Planning</h2>
+                    <p class="tech-card-description">Looks beautiful & ultra-sharp on Retina Screen Displays. Retina Icons, Fonts & all others graphics are optimized.</p>
+                </div>
+            </div>
+            <div class="tech-card">
+                <i><img src="./i-neurology.png"></i>
+                <div>
+                    <h2 class="tech-card-heading">Expert Consultation</h2>
+                    <p class="tech-card-description">Canvas includes tons of optimized code that are completely customizable and deliver unmatched fast performance.</p>
+                </div>
+            </div>
+        </div>
+        <div class="technology1">
+            <div class="tech-card">
+                <i><img src="./i-dental.png"></i>
+                <div>
+                    <h2 class="tech-card-heading">Dental Sciences</h2>
+                    <p class="tech-card-description">Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
+                </div>
+
+
+                
+            </div>
+            <div class="tech-card">
+                <i><img src="./i-internal-medicine.png"></i>
+                <div>
+                    <h2 class="tech-card-heading">X-Ray Services</h2>
+                    <p class="tech-card-description">Looks beautiful & ultra-sharp on Retina Screen Displays. Retina Icons, Fonts & all others graphics are optimized.</p>
+                </div>
+                
+                
+            </div>
+            <div class="tech-card">
+                <i><img src="./i-health-services.png"></i>
+                <div>
+                    <h2 class="tech-card-heading">24x7 Emergency</h2>
+                    <p class="tech-card-description">Canvas includes tons of optimized code that are completely customizable and deliver unmatched fast performance.</p>
+                </div>   
+            </div>
+        </div>
+        </div>
+    </div>
+
+        <div>
+            <div class="sticky"><a href="index.html"><img src="./top arrow.png" height="30px" width="35px" style="border-radius: 60px;"></a></div>
+        </div>
+
+        <div class="section col-lg-12 col-md-6">
+            <div class="section-bg"><img src="./section-bg.jpg"></div>
+            <div>
+                <form action="#" method="post" class="col-md-6 col-lg-12" >
+                    <fieldset id="form" style="background:rgb(231, 93, 93);color: white;">
+                        <legend class="head"><h2>Book An Appointment</h2></legend><br>
+                        <label>Name: </label><br>
+                        <input type="text" placeholder="Enter Your Name" class="form-control" required>
+                        <label>Mobile No: </label><br>
+                        <input type="text" placeholder="Enter Your Mobile No" class="form-control" required>
+                        <label>Email: </label><br>
+                        <input type="text" placeholder="Enter Your Email" class="form-control" required>
+                        <label>Date Of Birth: </label><br>
+                        <input type="date" class="form-control" required>
+                        <label>Appointment Date: </label><br>
+                        <input type="date"class="form-control" required>
+                        <label>Message:</label><br>
+                        <textarea placeholder="write your message minimum 10lines" rows="5" cols="25" class="form-control" required></textarea><br>
+                        <label>Book With us Before? </label><br>
+                        <input type="radio" id="Yes" name="Yes" required>Yes
+                        <input type="radio" id="No" name="No" required>No
+                        <button class="btn btn-light">Confirm Booking</button><br><br>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="treat">
+            <div class="Treatments"><h3>Treatments Offered<span>.</span></h3><br>
+                <h3 id="btn" class="Kidney"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="25" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16"> <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/> </svg>Kidney Transplant</h3>
+                <P id="p1" class="hidden">
+                    Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+                </P>
+                <h3 id="pulmo" class="kidney"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="25" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16"> <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/> </svg>Pulmonary Treament</h3>
+                <p id="p2" class="hidden" style="text-align: justify;">
+                    Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus. 
+                Aenean lacinia bibendum nulla sed consectetur.Cras mattis consectetur.</p>
+                <h3 id="eye" class="kidney"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="25" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16"> <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/> </svg>Eye Care & Lasik Surgery</h3>
+                <p id="p3" class="hidden"style="text-align: justify;">
+                    Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.
+                </p>
+                <h3 id="ear" class="kidney"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="25" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16"> <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/> </svg>Ear, Nose & Throat</h3>
+                <p id="p4" class="hidden" style="text-align: justify;">
+                    Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.    
+                </p>
+                <h3 id="Cardiology" class="kidney"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="25" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16"> <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/> </svg>Cardiology Department</h3>
+                <p id="p5" class="hidden" style="text-align: justify;">
+                    Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus. 
+                </p>
+             </div>
+             <div class="patient">
+                <center>
+                <div class="Testimonials">
+                <h3>Patient Testimonials<span>.</span></h3>
+                </div><br>
+                <div>
+                    <i><img src="./img1.jpg"></i>
+                </div><br>
+                <div>
+                    <p class="discreption" style="text-align: justify;">Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam
+                     quibusdam cum libero illo rerum repellendus!</p>
+                <div>
+                    <div>
+                     <h2 class="heading">John Doe</h2>
+                     <p style="text-indent: 55px;">Google Inc.</p>
+                    </div>
+                </div><br>
+                <div>
+                    <i><img src="./image2.jpg"></i>
+                </div><br>
+                <div>
+                    <p class="discreption" style="text-align: justify;">Seamlessly conceptualize multimedia based web services for optimal human capital. 
+                        Collaboratively evisculate e-business value!</p>
+                <div>
+                    <div>
+                    <h2 class="heading">Alex Whiteman</h2>
+                     <p style="text-indent: 40px;">Amazon Co.</p>
+                    </div>
+                </div>
+                </center>
+            </div>
+         </div>
+         <button class="btn btn-danger" id="btn1" style="margin-left: 1100px;">More Patient Feedback</button><br><br><br><br>
+         <div class="count">
+            <div class="served">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="./count.png" width="100px" height="100px" id="client">
+                <div class="serv">
+                <h1>22331+</h1>
+                <p style="color: rgb(206, 89, 89);">CLIENTS SERVED</p>
+                </div>&nbsp;&nbsp;&nbsp;
+                <img src="./count1.png" width="100px" height="100px" id="client">
+                <div class="serv">
+                <h1>56841+</h1>
+                <p style="color: rgb(206, 89, 89);">X-RAYS DONE</p>
+                </div>&nbsp;&nbsp;&nbsp;
+                <img src="./count1.png" width="100px" height="100px" id="client">
+                <div class="serv">
+                <h1>332+</h1>
+                <p style="color: rgb(206, 89, 89);">WORLDWIDE STAFF</p>
+                </div>&nbsp;&nbsp;&nbsp;
+                <img src="./count2.png" width="100px" height="100px" id="client">
+                <div class="serv">
+                <h1>2213+</h1>
+                <p style="color: rgb(206, 89, 89);">LIVES SAVED</p>
+                </div>
+            </div>
+         </div><br><br><br><br><br>
+
+          <section class="shop">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-lg-5 m-auto text-center">
+                        <h1>Meet our Team of Specialists<span style="color: red;">.</span></h1>
+                        <h6>We make sure that your Life are in Good Hands.</h6>
+                    </div>
+                </div> 
+
+         <div class="row">
+            <div class="col-lg-3 text-center">
+                <div class="md-2">
+                    <div class="card-body">
+                        <img src="./john.jpg" height="300px" width="300px" class="img-fluid">
+                    </div>
+                </div>
+                <h4>DR.JOHN DOE</h4>
+                <p>Cardiologist</p>
+            </div>
+         <div class="col-lg-3 text-center">
+            <div class="md-2">
+                <div class="card-body">
+                    <img src="./bryan.jpg" height="300px" width="300px" class="img-fluid">
+                </div>
+            </div>
+            <h4>DR.BRYAN MACCURIE</h4>
+            <p>Orthopedist</p>
+        </div>
+     <div class="col-lg-3 text-center">
+        <div class="md-2">
+            <div class="card-body">
+                <img src="./mary.jpg" height="300px" width="300px" class="img-fluid">
+            </div>
+        </div>
+        <h4>DR.MARY JANE</h4>
+        <p>Neurologist</p>
+    </div>
+ <div class="col-lg-3 text-center">
+    <div class="md-2">
+        <div class="card-body">
+            <img src="./silvia.jpg" height="300px" width="300px" class="img-fluid">
+        </div>
+    </div>
+        <h4>DR.SILVIA BUSH</h4>
+        <p>Dentist</p>
+    </div>
+<div class="col-lg-3 text-center">
+    <div class="md-2">
+        <div class="card-body">
+            <img src="./hugn.jpg" height="300px" width="300px" class="img-fluid">
+        </div>
+    </div>
+        <h4>DR.HUGN BALDWIN</h4>
+        <p>Cardiologist</p>
+    </div>
+<div class="col-lg-3 text-center">
+    <div class="md-2">
+        <div class="card-body">
+            <img src="./erika.jpg" height="300px" width="300px" class="img-fluid">
+        </div>
+    </div>
+        <h4>DR.ERIKA TODD</h4>
+        <p>Neurologist</p>
+    </div>
+<div class="col-lg-3 text-center">
+    <div class="md-2">
+        <div class="card-body">
+            <img src="./randy.jpg" height="300px" width="300px" class="img-fluid">
+        </div>
+    </div>
+        <h4>DR.RANDY ADAMS</h4>
+        <p>Dentist/p>
+    </div>
+<div class="col-lg-3 text-center">
+    <div class="md-2">
+        <div class="card-body">
+            <img src="./alan.jpg" height="300px" width="300px" class="img-fluid">
+        </div>
+    </div>
+        <h4>DR.ALAN FREEMAN</h4>
+        <p>Eye Specialist</p>
+    </div>
+</div>
+</div>
+</div>
+</section>
+<br>
+         <div>
+            <div id="fixed"><a href="#"><img src="./setting2.jpeg" height="30px" width="35px" style="border-radius: 90px;"></a></div>
+        </div>
+        <div>
+            <div id="fixed1"><a href="#"><img src="./lock1.png" height="30px" width="35px" style="border-radius: 90px;"></a></div>
+        </div>
+
+
+         <section class="news" style="background-color: rgb(252, 245, 245); color: black;">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-lg-6 col-md-3 col-sm-6">
+                     <input type="text" placeholder="Enter Your Email to Subscribe to your NewsLetter" class="form-control">
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <button class="btn btn-danger" id="btn1">Subscribe</button>
+                    </div>
+                    <div class="col-md-3 col-lg-12">
+                        <p style="text-indent: 840px;">Call us:</p>
+                        <h4 style="text-indent: 840px;">(1) 22 55412474</h4>
+                    </div><br>
+                    <div class="col-lg-12 col-md-3">
+                        <p style="text-indent: 800px;">Send An Email:</p>
+                        <h4 style="text-indent: 820px;">info@canvas.com</h4>
+                    </div>
+                </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-11">
+                        <div class="row">
+                            <div class="col-lg-2 col-md-3">
+                                <P>Home</P>
+                                <P>About</P>
+                                <P>FAQs</P>
+                                <p>Support</p>
+                                <p>Contact</p>
+                            </div>
+                            <div class="col-lg-2 col-md-3">
+                                <P>Shop</P>
+                                <P>Portfolio</P>
+                                <P>Blog</P>
+                                <p>Events</p>
+                                <p>Forums</p>
+                            </div>
+                            <div class="col-lg-2 col-md-3">
+                                <P>Corporate</P>
+                                <P>Agency</P>
+                                <P>eCommerce</P>
+                                <p>Personal</p>
+                                <p>One Page</p>
+                            </div>
+                            <div class="col-lg-2 col-md-3">
+                                <P>Restaurant</P>
+                                <P>Wedding</P>
+                                <P>App Showcase</P>
+                                <p>Magazine</p>
+                                <p>Landing Page</p>
+                            </div>
+                            <div class="col-lg-4 col-md-3 py-5" style="text-indent: 100px;">
+                                <div>
+                                    <a class="icon-fb" href="#" target="_blank">
+                                        <i class="fa-brands fa-facebook-f"></i></a>Like to FB
+                                    <a class="icon-in" href="#" target="_blank">
+                                        <i class="fa-brands fa-linkedin-in"></i></a>&nbsp;&nbsp;&nbsp;Subscribe RSS
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="right">
+                        <div class="terms col-lg-6 col-md-3 col-sm-2">
+                            <p style="color: black;">Copyrights © 2023 All Rights Reserved by Canvas Inc.</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="">Terms of use>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</a>
+                            <a href="">Privacy Policy</a>
+                        </div>
+                        <div id="footer" style="margin-left: 80px;" class="col-lg-6 col-md-3 col-sm-2">
+                            <a href="index.html">Home&nbsp;&nbsp;/</a>
+                            <a href="about.html">About Us&nbsp;&nbsp;/</a>
+                            <a href="departments.html">Team&nbsp;&nbsp;/</a>
+                            <a href="doctors.html">Clients&nbsp;&nbsp;/</a>
+                            <a href="blogs.html">FAQs&nbsp;&nbsp;/</a>
+                            <a href="contact.html">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+        <script>
+            $(document).ready(function(){
+                $("#btn").click(function(){
+                    $("#p1").toggle();
+                });
+            });
+            $(document).ready(function(){
+                $("#pulmo").click(function(){
+                    $("#p2").toggle();
+                });
+            });
+            $(document).ready(function(){
+                $("#eye").click(function(){
+                    $("#p3").toggle();
+                });
+            });
+            $(document).ready(function(){
+                $("#ear").click(function(){
+                    $("#p4").toggle();
+                });
+            });
+            $(document).ready(function(){
+                $("#Cardiology").click(function(){
+                    $("#p5").toggle();
+                });
+            });
+        </script>
+    </body>
+</html>
